@@ -4,7 +4,6 @@ services:
     env: docker
     rootDir: cinema
     region: oregon
-
   - type: web
     name: movie-frontend
     env: node
