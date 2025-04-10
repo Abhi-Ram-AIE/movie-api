@@ -40,3 +40,4 @@ A Java Spring Boot application that serves as the backend for a full-stack web a
 - Run npm install and npm start in your frontend folder
 - Open http://localhost:3000/
 
+Note: The cinema folder contains the backend, whereas the CinemaClient folder contains the frontend.
