@@ -33,10 +33,11 @@ A Java Spring Boot application that serves as the backend for a full-stack web a
 
 - Open the project in IntelliJ IDE
 - Run the application using the main class with @SpringBootApplication
-- Once running, the backend will be live at: http://localhost:8080/api/v1/cinema(If you have a JSON viewer extension in your browser, the response will be formatted)
+- Once running, the backend will be live at: http://localhost:8080/api/v1/cinema (If you have a JSON viewer extension in your browser, the response will be formatted)
 
 ## Running Frontend
 
 - Run npm install and npm start in your frontend folder
 - Open http://localhost:3000/
 
+Note: The cinema folder contains the backend, whereas the CinemaClient folder contains the frontend.
