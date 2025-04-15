@@ -3,6 +3,7 @@ import Carousel from 'react-material-ui-carousel';
 import { Paper } from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
+import { faPlay, faCirclePause, faClapperboard } from '@fortawesome/free-solid-svg-icons';
 import {Link, useNavigate} from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 
@@ -36,7 +37,7 @@ const Hero = ({cinema}) => {
                                         <Link to={`/Trailer/${movie.trailerLink.substring(movie.trailerLink.length - 11)}`}>
                                             <div className="play-button-icon-container">
                                                 <FontAwesomeIcon className="play-button-icon"
-                                                    icon = {faCirclePlay}
+                                                    icon = {faPlay}
                                                 />
                                             </div>
                                         </Link>
