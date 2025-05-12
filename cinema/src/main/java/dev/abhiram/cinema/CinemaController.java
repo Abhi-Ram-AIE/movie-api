@@ -14,7 +14,6 @@ import java.util.Optional;
 
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "https://lighthearted-gnome-934d4e.netlify.app")
 @RestController
 @RequestMapping("/api/v1/cinema")
 
