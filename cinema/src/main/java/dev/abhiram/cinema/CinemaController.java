@@ -15,6 +15,7 @@ import java.util.Optional;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/v1/cinema")
 
 public class CinemaController {
